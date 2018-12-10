@@ -10,7 +10,7 @@ function forEachObject(obj, func) {
     Object.keys(obj).forEach(function (key) { func(key, obj[key]) })
 }
 client.on('guildMemberAdd', member => {
-const channel = member.guild.channels.find("name","chat")
+const channel = member.guild.channels.find("wlc")
 if (member.user.bot) return;
 var Canvas = require('canvas')
 var jimp = require('jimp')
